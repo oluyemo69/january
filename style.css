@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(208, 211, 208);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: grey;
+    padding: 20px;
+        }
+section{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    background-color: blue;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 30px;
+  
+}
+ul li a {
+    list-style: none;
+    color: aliceblue;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+footer{
+    background-color: black;
+    color: grey;
+    padding: 20px 10px;
+}
+button{
+    border-radius: 15px;
+    background-color: red;
+}
